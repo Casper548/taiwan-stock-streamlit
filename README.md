@@ -1,5 +1,4 @@
 Vibe Coding台股 AI 分析儀表板
-
 ##專案目標
 使用生成式 AI 與 Python 建立台股半導體分析工具
 
@@ -16,23 +15,34 @@ Vibe Coding台股 AI 分析儀表板
 - Plotly
 - Pandas
 
-##如何執行
+##環境要求:
+作業系統:windows 10/11
+開發IDE:VSCode
+AI 工具:ChatGPT
+執行環境:python 3.12
+資料來源:yfinance
+視覺化:Plotly
+UI 框架:Streamlit
+版本控制:Git + GitHub
 
+##一鍵安裝
 pip install -r requirements.txt  
+
+##執行指令
 streamlit run all.py
 
 ##AI工具鏈整合與任務執行紀錄
-
 本專案以生成式AI ChatGPT作為主要開發輔助工具，負責整體系統設計、程式生成與錯誤修正
 
 ##任務分工與 AI 應用紀錄
-
 系統架構設計
-使用 ChatGPT 協助設計整體 Streamlit 架構
+使用 Gemini 協助設計整體 Streamlit 架構
 -規劃三大模組：
 -單股分析模組
 -多股比較模組
 -技術指標判斷模組
+
+利用Gemini cli排除 yfinance 的多層索引報錯
 
 ##程式碼生成
 
@@ -41,32 +51,6 @@ streamlit run all.py
 -使用 Plotly 繪製 K 線圖（Candlestick）
 -計算 MA20 移動平均線
 -多股票 normalized 比較（以 100 為基準）
-
-##除錯與優化
-
-AI 協助解決以下問題：
--Git 初始化與 push 錯誤（remote / branch 問題）
--Python 套件缺失（streamlit / plotly）
--yfinance 資料格式（MultiIndex 處理）
-
-##使用環境與工具
-
-開發IDE:VSCode
-AI 工具:ChatGPT
-執行環境:Python 3.x
-資料來源:yfinance
-視覺化:Plotly
-UI 框架:Streamlit
-版本控制:Git + GitHub
-
-##Vibe Coding 工作流程
-
-1.以自然語言描述需求（例如：做K線圖分析）
-2.AI 生成初版程式碼
-3.本地執行測試（Streamlit）
-4.錯誤回報給 AI 修正
-5.重複優化直到可運行
-6.Git commit / push 版本控制
 
 ##K線圖繪製與專業數據分析
 
@@ -77,16 +61,8 @@ UI 框架:Streamlit
 -收盤價相對均線位置判斷多空
 
 ##趨勢判讀規則
-
 當股價 > MA20 → 短期偏多趨勢 
 當股價 < MA20 → 短期偏空趨勢 
-
-##組內最終結論
-
-台股半導體族群波動性較高
-權值股（如 2330）具有較強支撐性
-短期交易可依 MA20 判斷進出方向
-本系統可作為初步技術分析輔助工具
 
 ##Vibe Coding 流程優化與創新
 
@@ -106,4 +82,4 @@ UI 框架:Streamlit
 AI 自動生成金融分析邏輯
 多股票標準化比較（Normalization）
 即時互動式視覺化分析
-將 AI 作為「開發協作者」而非工具
+
