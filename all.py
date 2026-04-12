@@ -101,7 +101,7 @@ with tab2:
     with c2: t2 = st.text_input("股票 2", "2454", key="t2")
     with c3: t3 = st.text_input("股票 3", "3711", key="t3")
     with c4: t4 = st.text_input("股票 4", "3583", key="t4")
-    with c5: t5 = st.text_input("股票 5", "6187", key="t5")
+    with c5: t5 = st.text_input("股票 5", "6770", key="t5")
     
     comp_list = [t if t.endswith((".TW", ".TWO")) else f"{t}.TW" for t in [t1, t2, t3, t4, t5]]
     
