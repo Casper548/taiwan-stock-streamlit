@@ -20,3 +20,5 @@ Vibe Coding台股 AI 分析儀表板
 pip install -r requirements.txt  
 streamlit run all.py
 
+##AI工具鏈整合與任務執行紀錄
+本專案以生成式AI ChatGPT作為主要開發輔助工具，負責整體系統設計、程式生成與錯誤修正
