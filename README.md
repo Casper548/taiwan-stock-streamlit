@@ -16,14 +16,14 @@ Vibe Coding台股 AI 分析儀表板
 - Pandas
 
 ##環境要求:
-作業系統:windows 10/11
-開發IDE:VSCode
-AI 工具:ChatGPT
-執行環境:python 3.12
-資料來源:yfinance
-視覺化:Plotly
-UI 框架:Streamlit
-版本控制:Git + GitHub
+- 作業系統:windows 10/11
+- 開發IDE:VSCode
+- AI 工具:ChatGPT
+- 執行環境:python 3.12
+- 資料來源:yfinance
+- 視覺化:Plotly
+- UI 框架:Streamlit
+- 版本控制:Git + GitHub
 
 ##一鍵安裝
 pip install -r requirements.txt  
@@ -32,17 +32,15 @@ pip install -r requirements.txt
 streamlit run all.py
 
 ##AI工具鏈整合與任務執行紀錄
-本專案以生成式AI ChatGPT作為主要開發輔助工具，負責整體系統設計、程式生成與錯誤修正
+- 本專案以生成式AI ChatGPT作為主要開發輔助工具，負責整體系統設計、程式生成與錯誤修正，利用Gemini cli排除 yfinance 的多層索引報錯
 
 ##任務分工與 AI 應用紀錄
 系統架構設計
 使用 Gemini 協助設計整體 Streamlit 架構
--規劃三大模組：
--單股分析模組
--多股比較模組
--技術指標判斷模組
-
-利用Gemini cli排除 yfinance 的多層索引報錯
+- 規劃三大模組：
+- 單股分析模組
+- 多股比較模組
+- 技術指標判斷模組
 
 ##程式碼生成
 
@@ -61,8 +59,8 @@ streamlit run all.py
 -收盤價相對均線位置判斷多空
 
 ##趨勢判讀規則
-當股價 > MA20 → 短期偏多趨勢 
-當股價 < MA20 → 短期偏空趨勢 
+- 當股價 > MA20 → 短期偏多趨勢 
+- 當股價 < MA20 → 短期偏空趨勢 
 
 ##Vibe Coding 流程優化與創新
 
