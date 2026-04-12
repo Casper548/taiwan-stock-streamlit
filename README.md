@@ -8,7 +8,7 @@ Vibe Coding台股 AI 分析儀表板
 - 均線判斷
 - 多股比較
 - AI 投資建議
-- 
+  
 ##使用技術
 - Python
 - Streamlit
