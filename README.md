@@ -1,4 +1,3 @@
-Vibe Coding台股 AI 分析儀表板
 ##專案目標
 使用生成式 AI 與 Python 建立台股半導體分析工具
 
@@ -81,3 +80,6 @@ AI 自動生成金融分析邏輯
 多股票標準化比較（Normalization）
 即時互動式視覺化分析
 
+<img width="2560" height="1528" alt="螢幕擷取畫面 2026-04-13 141020" src="https://github.com/user-attachments/assets/16748eea-0d21-407b-9d1c-227e858a34cf" />
+
+<img width="2560" height="1528" alt="螢幕擷取畫面 2026-04-13 140836" src="https://github.com/user-attachments/assets/fff14a81-0b4d-48ff-a8f1-33a785857e20" />
